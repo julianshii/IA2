@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludoteca - Juegos de mesa</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body id="inicio">
+    <header class="encabezado">
+        <div class="contenedor encabezado-contenido">
+            <a class="marca" href="#inicio">
+                <h1>Ludoteca</h1>
+                <p>Catálogo de juegos de mesa</p>
+            </a>
+        </div>
+    </header>
+
+    <nav class="navegacion" aria-label="Navegación principal">
+        <div class="contenedor">
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#contacto">Información de contacto</a></li>
+                <li><a href="#sitio">Quién mantiene el sitio</a></li>
+                <li><a href="#estrategia">Estrategia</a></li>
+                <li><a href="#cartas">Cartas</a></li>
+                <li><a href="#familiares">Familiares</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="principal">
+        <div class="contenedor">
+            <section class="hero">
+                <h2>Juegos para compartir</h2>
+                <p>
+                    Bienvenido a nuestra ludoteca. Los juegos están organizados en las categorías
+                    <strong>estrategia</strong>, <strong>cartas</strong> y <strong>familiares</strong>.
+                    Elegí una categoría en la barra de navegación para consultar los juegos disponibles.
+                </p>
+                <div class="nota">
+                    Este sitio es completamente estático y está construido únicamente con HTML y CSS.
+                </div>
+            </section>
+
+            <section class="seccion" aria-labelledby="categorias">
+                <h2 id="categorias">Categorías</h2>
+                <div class="tarjetas">
+                    <article class="tarjeta">
+                        <img src="images/ajedrez.png" alt="Tablero y piezas de ajedrez">
+                        <h3>Estrategia</h3>
+                        <p>Juegos donde la planificación y la toma de decisiones son protagonistas.</p>
+                        <a class="boton-enlace" href="#estrategia">Ver juegos de estrategia</a>
+                    </article>
+
+                    <article class="tarjeta">
+                        <img src="images/truco.png" alt="Cartas españolas para jugar al truco">
+                        <h3>Cartas</h3>
+                        <p>Juegos que utilizan naipes y reglas de combinación, memoria o competencia.</p>
+                        <a class="boton-enlace" href="#cartas">Ver juegos de cartas</a>
+                    </article>
+
+                    <article class="tarjeta">
+                        <img src="images/uno.png" alt="Cartas de colores de un juego familiar">
+                        <h3>Familiares</h3>
+                        <p>Opciones pensadas para compartir entre personas de distintas edades.</p>
+                        <a class="boton-enlace" href="#familiares">Ver juegos familiares</a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="seccion catalogo-seccion" id="estrategia">
+                <div class="hero">
+                    <h2>Juegos de estrategia</h2>
+                    <p>Elegiste la categoría <strong>estrategia</strong>. Estos son los juegos disponibles.</p>
+                </div>
+                <div class="catalogo-grid">
+                    <article class="juego">
+                        <img src="images/ajedrez.png" alt="Ajedrez">
+                        <h3>Ajedrez</h3>
+                        <p>Juego clásico de estrategia para dos personas en el que cada movimiento requiere planificación y anticipación.</p>
+                        <a href="documentos/reglamentos/ajedrez.pdf">Reglamento</a>
+                    </article>
+                    <article class="juego">
+                        <img src="images/damas.png" alt="Damas">
+                        <h3>Damas</h3>
+                        <p>Juego de tablero basado en desplazamiento y captura de piezas, donde es fundamental planificar cada jugada.</p>
+                        <a href="documentos/reglamentos/damas.pdf">Reglamento</a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="seccion catalogo-seccion" id="cartas">
+                <div class="hero">
+                    <h2>Juegos de cartas</h2>
+                    <p>Elegiste la categoría <strong>cartas</strong>. Estos son los juegos disponibles.</p>
+                </div>
+                <div class="catalogo-grid">
+                    <article class="juego">
+                        <img src="images/truco.png" alt="Truco">
+                        <h3>Truco</h3>
+                        <p>Juego de cartas tradicional con baraja española, basado en la estrategia, el engaño y la toma de decisiones.</p>
+                        <a href="documentos/reglamentos/truco.pdf">Reglamento</a>
+                    </article>
+                    <article class="juego">
+                        <img src="images/canasta.png" alt="Canasta">
+                        <h3>Canasta</h3>
+                        <p>Juego de cartas basado en formar combinaciones y canastas, con especial importancia de la planificación de las jugadas.</p>
+                        <a href="documentos/reglamentos/canasta.pdf">Reglamento</a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="seccion catalogo-seccion" id="familiares">
+                <div class="hero">
+                    <h2>Juegos familiares</h2>
+                    <p>Elegiste la categoría <strong>familiares</strong>. Estos son los juegos disponibles.</p>
+                </div>
+                <div class="catalogo-grid">
+                    <article class="juego">
+                        <img src="images/uno.png" alt="UNO">
+                        <h3>UNO</h3>
+                        <p>Juego de cartas por colores y números, pensado para jugar de manera rápida y sencilla en grupo.</p>
+                        <a href="documentos/reglamentos/uno.pdf">Reglamento</a>
+                    </article>
+                    <article class="juego">
+                        <img src="images/dobble.png" alt="Dobble">
+                        <h3>Dobble</h3>
+                        <p>Juego rápido de observación y reconocimiento de símbolos en el que los jugadores deben encontrar coincidencias.</p>
+                        <a href="documentos/reglamentos/dobble.pdf">Reglamento</a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="seccion" id="contacto">
+                <div class="hero">
+                    <h2>Información de contacto</h2>
+                    <p>Para comunicarte con la ludoteca, completá el siguiente formulario simple.</p>
+                </div>
+                <form class="formulario" action="#" method="post">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" required>
+
+                    <label for="email">Correo electrónico</label>
+                    <input id="email" name="email" type="email" required>
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+
+                    <button type="submit">Enviar consulta</button>
+                </form>
+            </section>
+
+            <section class="seccion" id="sitio">
+                <div class="hero">
+                    <h2>Quién mantiene el sitio</h2>
+                    <p>
+                        Este sitio es mantenido por el equipo de la ludoteca, encargado de actualizar el catálogo,
+                        las imágenes y los reglamentos descargables.
+                    </p>
+                    <p>
+                        La página fue diseñada siguiendo el enunciado: HTML y CSS separados, navegación mediante
+                        enlaces y sin scripts.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="pie">
+        <div class="contenedor">
+            <p>Ludoteca &middot; Sitio web estático en HTML y CSS.</p>
+        </div>
+    </footer>
+</body>
+</html>
